@@ -3,13 +3,14 @@
 body {
     font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
     font-size: 20px 20px 20px 25px;
-    background-image: url(images/bokeh.jpg);
+    background-image: url("images/shipatsea.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     padding-top: 20px;
     padding-right: 20px;
     padding-bottom: 20px;
     padding-left: 20px;
+    background-position: 64% 0%;
 	}
 #container {
 	width: 768px;
@@ -50,7 +51,7 @@ footer p {
     padding-left: 50px;
 }
 footer {
-    width: 768px;
+    width: 728px;
     height: 125px;
     background-color: #646464;
     float: none;
