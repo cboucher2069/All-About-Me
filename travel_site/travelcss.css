@@ -1,0 +1,102 @@
+@charset "UTF-8";
+body {
+    background-image: url(images/sydney_skyline.jpg);
+    margin: auto;
+    width: 800px;
+    height: 1250px;
+    border: 1px solid #000000;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+header {
+    background-image: url(images/austrailia.png);
+    height: 250px;
+    width: 800px;
+    background-size: 301px 246px;
+    background-repeat: no-repeat;
+    background-position: 50% 79%;
+    margin: auto;
+    background-color: #EED2A6;
+		}
+main {
+    height: 1000px;
+    width: 649px;
+    float: left;
+    background-color: #EED2A6;
+    margin: auto;
+    border-right: 1px solid #000000;
+    border-top: 1px solid #000000;
+}
+aside h1 {
+    padding-left: 12px;
+}
+aside {
+    float: right;
+    height: 1000px;
+    width: 150px;
+    background-color: #188346;
+    margin: auto;
+    border-top: 1px solid #000000
+}
+aside ul li {
+	padding-top: 10px;
+}
+nav {
+    width: 800px;
+    margin: auto;
+    height: 50px;
+    background-color: #EED2A6;
+}
+nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    width: 114px;
+    margin: auto;
+    font-size: 18pt;
+    text-align: center;
+    text-decoration: none;
+}
+nav ul {
+    margin: auto;
+    width: 476px;
+    padding-top: 10px;
+    height: 36px;
+}
+nav a:link {
+    color: #06683A;
+    text-decoration: none;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #044A29;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #028749;
+}
+nav a:active {
+    text-decoration: none;
+    color: #1A8653;
+}
+main h1, main p {
+	padding-left:10px;
+}
+main ul li {
+	padding-top: 25px;
+}
+main img {
+    float: right;
+    padding-right: 10px;
+}
+main p {
+    font-size: 18px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+main h2 {
+    padding-left: 10px;
+}
+input {
+    padding-left: 0px;
+}
