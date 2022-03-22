@@ -1,0 +1,57 @@
+<!doctype html>
+<html>
+<head>
+
+<meta charset="UTF-8">
+<!-- TemplateBeginEditable name="doctitle" -->
+<title>Untitled Document</title>
+<!-- TemplateEndEditable -->
+<link href="../assets/styles.css" rel="stylesheet" type="text/css">
+	<link rel="stylesheet" href="https://use.typekit.net/mos8agk.css">
+	<link rel="stylesheet" href="https://use.typekit.net/mos8agk.css">
+	<link rel="stylesheet" href="https://use.typekit.net/mos8agk.css">
+<!-- TemplateBeginEditable name="styles" -->
+	<style type="text/css">
+	body,td,th {
+    font-size: 20px;
+}
+		footer, h1{
+			padding-left: 40px;
+		}
+		footer {
+			width: 1240px;
+		}
+    </style>
+
+	</head>
+<!-- TemplateEndEditable -->
+
+<body>
+	
+	<div id="container">
+  <header></header>
+  <nav>
+	<ul>
+		<li><a href="../pages/about.html">About</a></li>
+		<li><a href="../pages/blog.html">Blog</a></li>
+		<li><a href="../pages/gallery.html">Gallery</a></li>
+		<li><a href="../pages/contact.html">Contact</a></li>
+	</ul>
+  </nav>
+  <!-- Being Floated Elements-->
+	<aside><h3>I'm a man, a son, a student, a worker, and a pet owner. </h3>
+		<h3>Lets take a look through My Scope</h3>
+	 <p>By Chase Boucher</p></aside>
+		<!-- TemplateBeginEditable name="main" -->
+  <main>
+    <h1>Header</h1>
+  </main>
+		<!-- TemplateEndEditable -->
+	<!-- TemplateBeginEditable name="footer" -->
+  <footer><h1>Contact Information</h1>
+      <p>Email: <a href="mailto:thisisarealemail@email.com">thisisarealemail@email.com</a></p>
+      <p>Phone: <a href="tel:230-340-5670">230-340-5670</a></p></footer>
+		<!-- TemplateEndEditable -->
+</div>
+</body>
+</html>

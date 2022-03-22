@@ -1,0 +1,265 @@
+@charset "UTF-8";
+
+body {
+    font-family: Gotham, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 20px 20px 20px 25px;
+    background-image: url("../images/shipatsea.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding-top: 20px;
+    padding-right: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    background-position: 64% 0%;
+	}
+#container {
+	width: 1280px;
+	height: auto;
+	background-color: white;
+	margin: auto;
+	
+}
+
+aside {
+    width: 150px;
+    height: 2000px;
+    float: left;
+    background-color: #646464;
+}
+aside p {
+    padding-left: 10px;
+}
+header {
+    width: 1280px;
+    height: 275px;
+    background-color: #FFFFFF;
+    margin: auto;
+    background-image: url(../images/scope.png);
+    background-repeat: no-repeat;
+    background-size: 200px auto;
+    background-position: 50% 89%;
+}
+main {
+    width: 1100px;
+    height: 1600px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+footer p {
+    padding-left: 0px;
+    width: 500px;
+    font-size: small;
+}
+footer {
+	width: 1280px;
+	height: 125px;
+	background-color: #646464;
+	float: none;
+	clear: both;
+}
+h1 {
+    color: #6BE6FF;
+    font-family: chapman,sans-serif;
+    font-weight: 700;
+	font-style: normal;
+	font-size: 24px;
+}
+h3 {
+    font-size: 20px;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+p {
+	font-family: new-order,sans-serif;
+	font-weight: 400;
+	font-style: normal;
+
+}
+img {
+    float: right;
+    padding-top: 10px;
+    padding-right: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+}
+
+.floatLeft {
+	float: left;
+}
+
+article {
+    margin-bottom: 30px;
+}
+nav {
+    width: 1280px;
+    margin: auto;
+    height: 87px;
+    background-color: #FFFFFF;
+    position: fixed;
+    top: 0px;
+	z-index: 2;
+}
+nav li {
+    display: block;
+    list-style-type: none;
+    float: left;
+    width: 150px;
+    font-family: caprizant;
+    font-size: 18pt;
+}
+nav ul {
+    width: 700px;
+    padding-left: 385px;
+}
+nav a:link {
+    color: #6BE7FE;
+    text-decoration: none;
+	padding: 10px;
+}
+nav a:visited {
+    text-decoration: none;
+    color: #652189;
+}
+nav a:hover {
+    text-decoration: none;
+    color: #FFFFFF;
+	background-color: #6BE7FE;
+	padding: 10px;
+	border-radius: 20px;
+}
+nav a:active {
+    text-decoration: none;
+    color: #191919;
+}
+.submit_btn {
+    width: 160px;
+    height: 30px;
+    background-color: #6BE6FF;
+    border-radius: 10px;
+    color: #FFFFFF;
+    font-size: 15px;
+}
+
+.submit_btn:hover {
+	-webkit-box-shadow: 6px 6px 35px 1px #000000;
+    box-shadow: 6px 6px 35px 1px #000000;
+	
+}
+.column {
+    width: 250px;
+    height: 750px;
+    float: left;
+    margin-left: 60px;
+    margin-right: 20px;
+}
+video {
+		width: 600px;
+		height: 600px;
+		margin: auto;
+		z-index: 1;
+		
+	}
+/*Rules hte page will follwo for Tablet-sized devices*/
+@media (max-width: 1024px){
+	#container {
+		width: 768px;
+		height: 2970px;
+	}
+	header {
+		width:768px;
+	}
+	aside {
+		height: 2600px;
+	}
+	nav {
+		width: 768px;
+	}
+	main {
+		width: 598px;
+		height: 2550px;
+	}
+	footer {
+		width: 768px;
+	}
+	nav ul {
+		padding-left: 10px;
+		margin-left: 120px;
+		background: none;
+}
+	
+	.column {
+		margin: 0px 20px 0px 25px;
+	}
+	video {
+		width: 400px;
+		height: 400px;
+	}
+}
+/*Rules the page will follow on mobile devices*/
+@media only screen and (max-width:375px){
+	#container {
+		width: 300px;
+		height: 4000px;
+	}
+	header {
+    width: 300px;
+    background-position: 50% 26%;
+	}
+	nav {
+    width: 300px;
+    height: 200px;
+    position: static;
+	}
+	main {
+		width: 300px;
+		height: 4000px;
+	}
+	footer {
+    width: 260px;
+    padding: 0px;
+	}
+	footer p {
+    padding-left: 0px;
+    width: 300px;
+    margin-left: -35px;
+    font-size: 18px;
+}
+footer h1 {
+    width: 260px;
+    margin-left: -50px;
+}
+	nav ul {
+    width: 153px;
+	height: 150px;
+	}
+	nav li {
+    	width: 20px;
+	}
+	li {
+    margin: 5px 10px 5px -110px;
+    height: 31px;
+	}
+	aside {
+		display:none;
+	}
+	
+	#container nav li {
+		display: list-item;
+		list-style-type: none;
+		float: none;
+		margin-bottom: 20px;
+		width: 260px;
+		text-align: center;
+	}
+	
+	.column {
+		margin: 0px 20px 20px 25px;
+		padding-bottom: 40px;
+	}
+	
+}
